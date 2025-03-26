@@ -1,12 +1,12 @@
+import Header from "./components/Header";
 import Intro from "./components/Intro";
 
 function App() {
   return (
-    <>
-      <div className="dark">
-        <Intro />
-      </div>
-    </>
+    <div className="dark">
+      <Header />
+      <Intro />
+    </div>
   );
 }
 
